@@ -7,14 +7,15 @@
  */
 
 import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import CoinsStack from './src/components'
-import { View } from 'react-native';
+import CoinsStack from './src/components/coins/CoinsStack';
+import { NavigationContainer} from '@react-navigation/native';
+
 const App: () => React$Node = () => {
   return (
-      <>
-      
+    <>
+     <NavigationContainer>
+       <CoinsStack /> 
+     </NavigationContainer>
+    </>
   );
 };
-
-export default App;
