@@ -19,3 +19,7 @@ const App: () => React$Node = () => {
     </>
   );
 };
+
+
+
+export default App;
